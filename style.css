@@ -1,0 +1,39 @@
+body{
+    background-color: #9897a9;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+.registerform{
+  border-radius: 12px;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #fcfbfc;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  box-shadow: 0px 0px 12px rgba(48,48,48,50);
+  padding: 10px;
+}
+
+input{
+  margin: 1em;
+  padding: 0.5em;
+}
+
+input[type=submit], input[type=reset]{
+  border: none;
+  background-color: #4166f5;
+  color: white;
+  margin: 0.5em;
+  width: 256px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 1em;
+  font-weight: bold;
+}
